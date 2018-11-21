@@ -1,6 +1,4 @@
 function takeANumber(katzDeli, newPerson){
-  var katzDeliLine = katzDeli
-  var linelength = katzDeliLine.length;
   var position = katzDeliLine.length + 1  
   katzDeli[katzDeli.length] = newPerson;
   return "Welcome, " + newPerson + ". You are number " + position + " in line.";  
